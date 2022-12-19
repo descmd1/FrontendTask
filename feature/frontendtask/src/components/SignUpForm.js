@@ -1,9 +1,13 @@
 import React from 'react'
+import Layout from './Layout/Layout'
+import Card from './UI/Card'
 import classes from './SignUpForm.module.css'
 
 const SignUpForm = () => {
   return (
-    <div>
+    <Card>
+    <Layout>        
+        <div className={classes.formbg}>
         <form className={classes.signup}>
             <div className={classes.heads}>
                 <h1>Sign Up</h1>
@@ -30,14 +34,17 @@ const SignUpForm = () => {
                 <input type='text' placeholder='Enter your First Name'/>
             </div>
             <div className={classes.box}>
-                <checkbox className={classes.check}>click me</checkbox>
+                <checkbox className={classes.check}><span className={classes.mark}>&#x2713;</span></checkbox>
                 <p className={classes.info}>By continuing, you agree to the <span className={classes.terms}>terms and conditions</span></p>
             </div>
             <div>
                 <button className={classes.signupBtn}>Sign Up</button>
             </div>
         </form>
-    </div>
+        </div>
+        </Layout>
+
+    </Card>
   )
 }
 

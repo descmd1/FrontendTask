@@ -1,0 +1,10 @@
+.card {
+    display: grid;
+    grid-template: auto;
+    margin: 1rem auto;
+    border-radius: 6px;
+    background-color: rgb(247, 252, 247);
+    padding: 1rem;
+    width: 90%;
+    max-width: 90rem;
+  }
