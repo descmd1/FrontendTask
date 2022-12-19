@@ -1,13 +1,16 @@
-.heads{
-    text-align: center;
-}
 
+.formbg{
+    background-image: url('../assets/image\ 2.png'), url('../assets/image\ 1.png');
+    background-repeat: no-repeat;
+    background-position: right top, left;
+   
+}
 .signup{
-    width: 30rem;
+    width: 27.5rem;
     display: flex;
     flex-direction: column;
     align-self: center;
-    margin-left: 30rem;
+    margin-left: 36%;
 }
 
 label{
@@ -18,15 +21,15 @@ label{
 }
 
  input{
-    width: 30rem;
+    width: 27.5rem;
     height: 3rem;
     text-align: start;
     border: 1px solid black;
     margin-bottom: 1rem;
  }
  .check{
-    width: 4rem;
-    height: 3rem;
+    width: 3rem;
+    height: 2.5rem;
     background-color: green;
     border: 1px solid green;
  }
@@ -37,14 +40,17 @@ label{
  .box{
     display: flex;
     flex-direction: row;
-    gap: 3px;
+    gap: 1rem;
     width: 30rem;
  }
  .signupBtn{
-    width: 30rem;
+    width: 27.5rem;
     height: 3rem;
     background-color: black;
     color: white;
     margin-top: 1rem;
  }
- 
+ .mark{
+    color: white;
+    font-size: 30px;
+ }

@@ -1,0 +1,36 @@
+.buttoncontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.button1 {
+    border-color:1px solid green;
+    color: green;
+    height: 2.5rem;
+    width: 5rem;
+  }
+  
+  .button1:hover,
+  .button1:active {
+    color: white;
+  }
+  
+  .button1 span {
+    margin: 0 0.5rem;
+  }
+  .button2 {
+    background-color: black;
+    color: white;
+    height: 2.5rem;
+  }
+  
+  .button2:hover,
+  .button2:active {
+    color: white;
+  }
+  
+  .button2 span {
+    margin: 0 0.5rem;
+  }
+ 
