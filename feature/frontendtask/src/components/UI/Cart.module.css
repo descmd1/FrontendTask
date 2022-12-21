@@ -1,0 +1,57 @@
+.cart{
+    box-sizing: border-box;
+    border: 2px solid rgb(220, 243, 220);
+    width: 35vw;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px
+}
+
+.Cartcontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.tick{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: green;
+    border: 1px solid green;
+    margin-top: 1.5rem;
+}
+
+.marktick{
+    color: white;
+    font-size: 18px;
+}
+.automatic{
+    background-color: white;
+    border: 3px solid whitesmoke;
+    border: none;
+    color: green;
+    height: 4rem
+}
+
+.del{
+    background-color: white;
+    border: none;
+    color: red;
+    margin-top: -0.1rem;
+    margin-left: -1.5rem;
+}
+
+.cash{
+    background-color: white;
+    border: 3px solid whitesmoke;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+.naira{
+    margin-left: 2rem;
+}
+
+.Value{
+    margin: 0;
+}
