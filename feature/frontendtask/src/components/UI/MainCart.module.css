@@ -1,0 +1,53 @@
+.MainCart{
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+   background-color: #f7fcf7;
+   box-sizing: border-box;
+   width: 40vw;
+   height: 70vh;
+   margin-left: 10%;
+   padding: 0 35px;
+}
+.bonds{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    box-sizing: border-box;
+    border: 2px solid rgb(215, 247, 215);
+    background-color: white;
+    width: 35vw;
+   
+}
+.fees{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.bond{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.bond2{
+    display: flex;
+    flex-direction: column;
+}
+.buys{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.checkout{
+   margin-right: -49%;
+}
+.totalbuy{
+    margin: 0;
+}
+.checkoutbtn{
+    border: none;
+    background-color: green;
+    color: white;
+    height: 2rem;
+}
