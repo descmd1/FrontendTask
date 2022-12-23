@@ -1,6 +1,9 @@
 import React from 'react'
 import Cart from './Cart'
+import {BsChevronDown} from 'react-icons/bs'
 import classes from './MainCart.module.css'
+
+
 const MainCart = () => {
   return (
     <div className={classes.MainCart}>
@@ -9,7 +12,7 @@ const MainCart = () => {
         <div className={classes.bonds}>
             <div className={classes.bond}>
             <div className={classes.fees}>
-            <p>Fees + Taxes v</p>
+            <p>Fees + Taxes <span><BsChevronDown/></span></p>
            <p>N209</p> 
             </div>
             <div>

@@ -1,0 +1,23 @@
+.MainCartItems{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 5vw;
+    gap: -24px;
+   
+    /* position: absolute; */
+    /* z-index: 999; */
+}
+.MainCartitem{
+     box-sizing: border-box;
+    background-color: rgb(244, 251, 244);
+    box-shadow: 10px;
+    /* position: relative;
+    z-index: 9;
+    height: 90vh;
+    width: 80vw; */
+}
+.chevronicon{
+    margin-left: -2px;
+    margin-top: 17rem
+}

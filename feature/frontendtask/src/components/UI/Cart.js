@@ -1,7 +1,8 @@
 import React from 'react'
 import coatofarm from '../../assets/coatofarm.png'
 import classes from './Cart.module.css'
-
+import {BsDashCircle} from 'react-icons/bs'
+import {BsPlusCircle} from 'react-icons/bs'
 const Cart = () => {
   return (
     <div className={classes.cart}>
@@ -13,7 +14,7 @@ const Cart = () => {
         <button className={classes.del}>Delete</button>
         <div className={classes.naira}>
         <p className={classes.Value}>Value(N)</p>
-        <button className={classes.cash}>3000, 000.00 - 01 +</button>
+        <button className={classes.cash}>3000, 000.00 <span><BsDashCircle/></span> 01 <span><BsPlusCircle/></span></button>
         </div>
         </div>
     </div>
