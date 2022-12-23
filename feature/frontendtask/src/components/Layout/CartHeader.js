@@ -3,25 +3,31 @@ import classes from './Header.module.css';
 import logo from '../../assets/LOGO.png'
 import {BsCart2} from 'react-icons/bs'
 import { Link } from 'react-router-dom';
+import coatofarm from '../../assets/coatofarm.png'
+import { BsPerson } from 'react-icons/bs';
 
-const Header = (props) => {
+const CartHeader = (props) => {
   return (
-    <container className={classes.container}>
+    <container className={classes.CartHeader}>
     <header className={classes.header}>
-      <img src={logo} alt='img' />
+        <div className={classes.coat}>
+        <img src={coatofarm} alt='img' width={60}/>
+        <h2 className={classes.dept}>DEPT MANAGEMENT OFFICE NIGERIA</h2>
+        </div>
+      
       <nav>
         <ul>
         <li className={classes.heads}>
           <Link to='/main-cart-items'>
-            <div>
-        <h4>Bond Offer</h4>
+            <div className={classes.bondoffer}>
+        <p >Bond Offer</p>
         </div>
         </Link>
-        <h4>DMO</h4>
-        <h4>Features</h4>
+        <p>Portfolio</p>
+        <p>Notification</p>
           </li>
-          <li>
-            <Button />
+          <li className={classes.bsperson}>
+            <BsPerson size={28}/>
           </li>
           <li className={classes.carticon}>
            <span className={classes.cart}><BsCart2 size={32}/></span> 
@@ -34,4 +40,4 @@ const Header = (props) => {
   );
 };
 
-export default Header;
+export default CartHeader;

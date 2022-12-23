@@ -113,4 +113,11 @@
     z-index: 9999;
   }
   
- 
+ @media only screen and (max-width:768px) {
+    .homecontainer{
+        width: 100%;
+    }
+    .component3{
+        position: fixed;
+    }
+ }

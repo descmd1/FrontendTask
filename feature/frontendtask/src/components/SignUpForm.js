@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from './Layout/Layout'
 import Card from './UI/Card'
 import classes from './SignUpForm.module.css'
+import { Link } from 'react-router-dom'
 
 const SignUpForm = () => {
   return (
@@ -38,7 +39,9 @@ const SignUpForm = () => {
                 <p className={classes.info}>By continuing, you agree to the <span className={classes.terms}>terms and conditions</span></p>
             </div>
             <div>
+                <Link to='/'>
                 <button className={classes.signupBtn}>Sign Up</button>
+                </Link>
             </div>
         </form>
         </div>

@@ -12,7 +12,7 @@ const CartItems = () => {
         </div>
         <div  className={classes.headsavings}>
             <h1 className={classes.savings}>730 days Savings Bond</h1>
-             <p>Due October 12, 2024</p>
+             <p className={classes.due}>Due October 12, 2024</p>
         </div>
     <div className={classes.cartItems}>
         <div>

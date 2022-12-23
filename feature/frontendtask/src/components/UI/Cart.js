@@ -8,8 +8,10 @@ const Cart = () => {
     <div className={classes.cart}>
         <div className={classes.Cartcontainer}>
         <checkbox className={classes.tick}><span className={classes.marktick}>&#x2713;</span></checkbox>
-        <img src={coatofarm} alt='' width={60}/>
-        <h4>730 days Saving Bond</h4>
+        <img src={coatofarm} alt='' width={40}/>
+        <div className={classes.bonddays}>
+        <h4 >730 days Saving Bond</h4>
+        </div>
         <button className={classes.automatic}>Automatic</button>
         <button className={classes.del}>Delete</button>
         <div className={classes.naira}>
