@@ -41,11 +41,13 @@
     font-size: 12px;
     align-items: center;
     align-content: center;
+    text-align: center;
  }
 
  .turkey{
    width: 80px;
    font-size: 9px;
+   margin-left: 0.1rem;
  }
  .turk{
    margin-top: 9px;
@@ -61,4 +63,5 @@
  }
  .headings{
    font-size: 9px;
+   margin-left: 0.5rem;
  }

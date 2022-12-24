@@ -4,10 +4,11 @@
    gap: 1.5rem;
    background-color: #f7fcf7;
    box-sizing: border-box;
-   width: 40vw;
+   width: 50vw;
    height: 70vh;
-   margin-left: 10%;
+   margin-left: 23%;
    padding: 0 35px;
+   margin-top: 3rem;
 }
 .bonds{
     display: flex;
@@ -16,7 +17,7 @@
     box-sizing: border-box;
     border: 2px solid rgb(215, 247, 215);
     background-color: white;
-    width: 35vw;
+    width: 46vw;
    
 }
 .fees{
@@ -32,6 +33,7 @@
 .bond2{
     display: flex;
     flex-direction: column;
+    margin-left: 15rem;
 }
 .buys{
     display: flex;
@@ -40,7 +42,7 @@
 }
 
 .checkout{
-   margin-right: -49%;
+   margin-left: 19%;
 }
 .totalbuy{
     margin: 0;
@@ -50,4 +52,7 @@
     background-color: green;
     color: white;
     height: 2rem;
+    margin-left: 37rem;
+    cursor: pointer;
+    width: 7rem;
 }

@@ -2,10 +2,12 @@
 .header {
     width: 100%;
     height: 5rem;
+    margin-top: 2rem;
     padding: 0 10%;
     display: flex;
     align-items: center;
     gap: 2rem;
+    overflow: hidden;
   }
   .heads{
     display: flex;
@@ -44,4 +46,32 @@
 .carticon{
   display: flex;
   flex-direction: row;
+}
+
+.dept{
+  color: green;
+  width: 280px;
+  font-size: 16px;
+}
+.CartHeader{
+  width: 80rem;
+  height: 5rem;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  margin-left: -9rem;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+.coat{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.bsperson{
+ margin-top: 1.3rem;
+}
+.bondoffer{
+  width: 90px;
 }

@@ -2,11 +2,15 @@ import React from 'react'
 import Cart from './Cart'
 import {BsChevronDown} from 'react-icons/bs'
 import classes from './MainCart.module.css'
+import { Link } from 'react-router-dom'
+import Layout from '../Layout/Layout'
+import CartHeader from '../Layout/CartHeader'
 
 
 const MainCart = () => {
   return (
     <div className={classes.MainCart}>
+      <CartHeader/>
         <Cart/>
         <Cart/>
         <div className={classes.bonds}>
@@ -30,7 +34,9 @@ const MainCart = () => {
         
         </div>
         <div className={classes.checkout}>
+          <Link to='/'>
             <button className={classes.checkoutbtn}>Check Out</button>
+            </Link>
             </div>
     </div>
   )

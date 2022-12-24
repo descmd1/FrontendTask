@@ -1,10 +1,11 @@
 .cart{
     box-sizing: border-box;
     border: 2px solid rgb(220, 243, 220);
-    width: 35vw;
+    width: 46vw;
     align-items: center;
     justify-content: center;
-    padding: 0 20px
+    padding: 0 20px;
+
 }
 
 .Cartcontainer{
@@ -30,15 +31,18 @@
     border: 3px solid whitesmoke;
     border: none;
     color: green;
-    height: 4rem
+    height: 3rem;
+    margin-top: 1rem;
+    
 }
 
 .del{
     background-color: white;
     border: none;
     color: red;
-    margin-top: -0.1rem;
-    margin-left: -1.5rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    height: 15px;;
 }
 
 .cash{
@@ -50,9 +54,14 @@
     
 }
 .naira{
-    margin-left: 2rem;
+    margin-left:4rem;
 }
 
 .Value{
     margin: 0;
 }
+
+.bonddays{
+    font-size: 16px;
+    width: 260px;
+  }
